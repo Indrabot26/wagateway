@@ -9,7 +9,7 @@
   "author": "Ilman Sunannudin",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.4.1",
+    "@adiwajshing/baileys": "^3.5.3",
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
