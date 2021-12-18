@@ -350,7 +350,7 @@ app.post('/v2/send-media', [
 
 //
 server.listen(configs.port, () => {
-	console.log(`Server listening on 8000`);
+	console.log(`Server listening on ${configs.port}`);
 });
 
 conn.on('group-participants-update', m => {
