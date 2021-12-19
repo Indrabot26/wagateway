@@ -40,7 +40,7 @@ var execPHP = require('./execphp.js')();
 // 	res.sendFile('index.html', { root: __dirname });
 // })
 
-execPHP.phpFolder = 'C:\\xampp\\htdocs\\wa2\\wa2\\';
+execPHP.phpFolder = '/root/wagateway';
 
 app.use('*.php', function (request, response, next) {
 	execPHP.parseFile(request.originalUrl, function (phpResult) {
@@ -48,6 +48,10 @@ app.use('*.php', function (request, response, next) {
 		response.end();
 	});
 });
+app.use('*', function (request, response, next) {
+	if (!fs.existsSync(`./${request.originalUrl}`)) return response.send(`Cannot ${request.method} ${request.originalUrl}`)
+	response.sendFile(__dirname+request.originalUrl)
+})
 const SESSION_FILE_PATH = './session.json';
 let sessionCfg;
 if (fs.existsSync(SESSION_FILE_PATH)) {
