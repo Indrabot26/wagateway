@@ -40,7 +40,7 @@ var execPHP = require('./execphp.js')();
 // 	res.sendFile('index.html', { root: __dirname });
 // })
 
-execPHP.phpFolder = '/root/wagateway';
+execPHP.phpFolder = '';
 
 app.use('*.php', function (request, response, next) {
 	execPHP.parseFile(request.originalUrl, function (phpResult) {
