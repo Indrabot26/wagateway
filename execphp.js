@@ -21,6 +21,7 @@ class ExecPHP {
 		var cmd = this.phpPath + ' ' + realFileName;
 		
 		exec(cmd, function(error, stdout, stderr) {
+			if (stderr) return callback(stderr);
 			callback(stdout);
 		});
 	}
