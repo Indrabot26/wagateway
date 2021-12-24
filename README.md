@@ -8,6 +8,6 @@ Yang dibutuhkan
 - PHP
 - MySql
 
-Database nya [ambil disini](https://github.com/frmdeveloper/wagateway/blob/database/wa.sql)
+Database nya [ambil disini](https://github.com/frmdeveloper/wagateway/blob/database/wa.sql) dan pasang (wajib)
 
 Pasang semua dan jalankan
