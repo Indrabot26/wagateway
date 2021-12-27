@@ -1,6 +1,6 @@
 # wagateway
 
-Gratis tapi susah dipasang.
+Saya kasih gratis, tapi susah dipasang.
 
 Yang dibutuhkan
 - Linux (windows tidak didukung)
