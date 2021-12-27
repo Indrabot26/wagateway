@@ -1,7 +1,7 @@
 # wagateway
 
-Saya kasih gratis, tapi susah dipasang karena gak paham.
-Yg berbayar seharga kurang lebih Rp 200 ribu
+Saya kasih gratis, tapi susah dipasang karena gak paham.<br>
+Yg berbayar seharga kurang lebih Rp 200 ribu<br>
 Lihat [youtube nya](https://youtube.com/channel/UC7AE19qSUMlMDnMfCHWIwbA)
 
 Yang dibutuhkan
