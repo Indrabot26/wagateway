@@ -1,6 +1,8 @@
 # wagateway
 
 Saya kasih gratis, tapi susah dipasang.
+Yg berbayar seharga kurang lebih Rp 200 ribu
+Lihat [youtube nya](https://youtube.com/channel/UC7AE19qSUMlMDnMfCHWIwbA)
 
 Yang dibutuhkan
 - Linux (windows tidak didukung)
